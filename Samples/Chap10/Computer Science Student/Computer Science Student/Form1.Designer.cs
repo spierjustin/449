@@ -51,6 +51,7 @@
             this.exitButton.TabIndex = 10;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // getHoursButton
             // 
@@ -60,6 +61,7 @@
             this.getHoursButton.TabIndex = 9;
             this.getHoursButton.Text = "Get Required Hours";
             this.getHoursButton.UseVisualStyleBackColor = true;
+            this.getHoursButton.Click += new System.EventHandler(this.getHoursButton_Click);
             // 
             // studentDataGroupBox
             // 
